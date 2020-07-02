@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
         {
             puppet.Drop();
         }
-        Destroy(this.gameObject);
+        Destroy(this.gameObject, 0.1f);
     }
 
     public void StartShot(Vector3 target, Puppet puppet)
